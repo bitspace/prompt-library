@@ -66,6 +66,3 @@ Expected Output
 :END:
 
 The Prompt Text Goes Here...
-
-* Contributing (If applicable)
-* License (Specify your license)
