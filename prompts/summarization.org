@@ -1,0 +1,7 @@
+* Summarization Prompts
+** Extractive Summarization
+*** Short Summaries
+**** Basic Extractive
+:PROPERTIES:
+:TASK: Summarization
+:TYPE: Extractive

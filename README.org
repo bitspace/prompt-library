@@ -1,0 +1,71 @@
+#+TITLE: LLM Prompting Library
+#+AUTHOR: Chris Woods
+#+DATE: <2025-02-04>
+
+* Introduction
+
+This repository contains a collection of prompts, templates, and resources for working with Large Language Models.
+
+These have been developed and accumulated over the course of about 18 months of using primarily Gemini and OpenAI models. The OpenAI model usage has been mostly via a Microsoft Azure AI integration at my day job. The Gemini model usage is "everything else".
+
+* Structure
+
+- [[file:Prompts/][prompts]]: Organized by task.
+- [[file:Templates/][templates]]: Reusable prompt templates.
+- [[file:Examples/][examples]]: Prompt/response pairs.
+- [[file:Resources/][resources]]: Articles and papers.
+- [[file:Scripts/][scripts]]: Automation scripts.
+- [[file:Experiments/][experiments]]: Prompt effectiveness tests.
+
+* Naming Conventions
+
+Files in `prompts/` are named by task (e.g., `summarization.org`).  Within each file, headings are used for specific prompt variations.
+
+* Metadata and Prompt Structure (Example within `prompts/summarization.org`):
+
+** Extractive Summarization
+
+*** Short Summaries
+
+**** Prompt 1: Basic Extractive
+
+:PROPERTIES:
+:TASK: Summarization
+:TYPE: Extractive
+:LENGTH: Short
+:KEYWORDS: text summarization, brevity, keywords
+:MODEL: (Optional)
+:AUTHOR: Your Name
+:DATE: <YYYY-MM-DD>
+:END:
+
+The Prompt Text Goes Here...
+
+#+BEGIN_EXAMPLE
+Example Input
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+Expected Output
+#+END_EXAMPLE
+
+** Abstractive Summarization
+
+*** Bullet Point Summaries
+
+**** Prompt 1: Abstractive Bullet Points
+
+:PROPERTIES:
+:TASK: Summarization
+:TYPE: Abstractive
+:LENGTH: Bullet Points
+:KEYWORDS: text summarization, bullet points, concise
+:MODEL: (Optional)
+:AUTHOR: Your Name
+:DATE: <YYYY-MM-DD>
+:END:
+
+The Prompt Text Goes Here...
+
+* Contributing (If applicable)
+* License (Specify your license)
